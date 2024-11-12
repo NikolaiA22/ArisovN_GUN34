@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638668508720368050
-    m_Hash: 3513416909
+      ticks: 638670195751280116
+    m_Hash: 1606955057
   m_LockFileStatus:
     m_FilePath: G:/Netologia/NetologiaArisov/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638668508724754120
-    m_Hash: 3052977981
+      ticks: 638670195760864918
+    m_Hash: 965328984
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,12 +22,12 @@ m_LocalPackages:
 m_ProjectPath: G:/Netologia/NetologiaArisov/Packages
 m_EditorVersion: 2022.3.42f1 (2dcb6a0abc42)
 m_ResolvedPackages:
-- packageId: com.unity.cinemachine@2.10.3
+- packageId: com.unity.cinemachine@2.10.2
   testable: 0
   isDirectDependency: 1
-  version: 2.10.3
+  version: 2.10.2
   source: 1
-  resolvedPath: G:\Netologia\NetologiaArisov\Library\PackageCache\com.unity.cinemachine@2.10.3
+  resolvedPath: G:\Netologia\NetologiaArisov\Library\PackageCache\com.unity.cinemachine@2.10.2
   assetPath: Packages/com.unity.cinemachine
   name: com.unity.cinemachine
   displayName: Cinemachine
@@ -188,13 +188,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638666077203430000
+  datePublishedTicks: 638654459477540000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.cinemachine@2.10/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
-    revision: fa616229e5cf36a8c640e862aff6eb686dbef444
+    revision: 579032a363b6269a3817d495c99a64394339b076
     path: 
   unityLifecycle:
     version: 2.10.1
@@ -1891,126 +1891,6 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.modules.imageconversion
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  fingerprint: 
-- packageId: com.unity.modules.terrain@1.0.0
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.0
-  source: 2
-  resolvedPath: G:\Netologia\NetologiaArisov\Library\PackageCache\com.unity.modules.terrain@1.0.0
-  assetPath: Packages/com.unity.modules.terrain
-  name: com.unity.modules.terrain
-  displayName: Terrain
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: module
-  description: 'The Terrain module implements Unity''s Terrain rendering engine available
-    through the Terrain component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TerrainModule.html'
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  fingerprint: 
-- packageId: com.unity.modules.terrainphysics@1.0.0
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.0
-  source: 2
-  resolvedPath: G:\Netologia\NetologiaArisov\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
-  assetPath: Packages/com.unity.modules.terrainphysics
-  name: com.unity.modules.terrainphysics
-  displayName: Terrain Physics
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: module
-  description: 'The TerrainPhysics module connects the Terrain and Physics modules
-    by implementing the TerrainCollider component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TerrainPhysicsModule.html'
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
-  dependencies:
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.terrain
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.terrain
     version: 1.0.0
   keywords: []
   registry:
