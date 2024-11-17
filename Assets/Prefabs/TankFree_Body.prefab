@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8740862375900820114}
   - component: {fileID: 8434171409711210448}
   - component: {fileID: 1553023233992123366}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TankFree_Wheel_f_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5520466485680795840}
   - component: {fileID: 5081538845276800215}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: FrontRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5858306624698188475}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wheels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -220,7 +220,8 @@ GameObject:
   - component: {fileID: 8101523690140675621}
   - component: {fileID: 7043105130842254390}
   - component: {fileID: 7844889601493954623}
-  m_Layer: 0
+  - component: {fileID: 6174700224804223276}
+  m_Layer: 9
   m_Name: TankFree_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -386,7 +387,7 @@ MonoBehaviour:
   _downforce: 100
   _slipLimit: 0.3
   _reverseMult: 0.4
-  _maxSpeedFOV: 200
+  _maxSpeedFOV: 20
   _fov: {x: 40, y: 40}
   _debugTorque: 0
 --- !u!82 &7844889601493954623
@@ -396,12 +397,12 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2157486878386404236}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: bd9566abdbf08834281bfb4ea8b92a5d, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_PlayOnAwake: 0
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -485,6 +486,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6174700224804223276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2157486878386404236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5e26ff9a27948a4b491c756ab3fdb5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _mult: 0.1
 --- !u!1 &2724600408496442624
 GameObject:
   m_ObjectHideFlags: 0
@@ -498,7 +512,8 @@ GameObject:
   - component: {fileID: 6236845678708198893}
   - component: {fileID: 6603592608258388700}
   - component: {fileID: 427768108210292102}
-  m_Layer: 0
+  - component: {fileID: 8026438362755845241}
+  m_Layer: 9
   m_Name: TankFree_Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -621,6 +636,33 @@ MonoBehaviour:
   _hitEffect: {fileID: 198656289721292014, guid: 318d92bfb9c51a24489f25da35f234a0, type: 3}
   _fireSound: {fileID: 8300000, guid: 95502f053e4521d4e9eaf3c777aa8799, type: 3}
   _hitSound: {fileID: 8300000, guid: dff85f79f1858594eae39a3b3f3f17d0, type: 3}
+--- !u!54 &8026438362755845241
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2724600408496442624}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &4219443571085346828
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,7 +675,7 @@ GameObject:
   - component: {fileID: 2756113662038690662}
   - component: {fileID: 6487037916840174429}
   - component: {fileID: 5669326772158639585}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TankFree_Wheel_f_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -731,7 +773,7 @@ GameObject:
   - component: {fileID: 1396712781498611415}
   - component: {fileID: 1583499393178409153}
   - component: {fileID: 8351209687664224787}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TankFree_Wheel_b_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -826,7 +868,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3382817861084682773}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -862,7 +904,7 @@ GameObject:
   - component: {fileID: 3579850000029280096}
   - component: {fileID: 250336930188572215}
   - component: {fileID: 6239465270786302798}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TankFree_Wheel_b_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -958,7 +1000,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6266622721548452644}
   - component: {fileID: 6620363517369432094}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: FrontLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1029,7 +1071,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1674799572986735824}
   - component: {fileID: 2457971129117059034}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: BackLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1100,7 +1142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8353267941315657552}
   - component: {fileID: 6589002267239478522}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Player vcam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1173,7 +1215,7 @@ GameObject:
   - component: {fileID: 202763352289764956}
   - component: {fileID: 6171135412180858206}
   - component: {fileID: 1688377348676372215}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TankFree_Canon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1256,7 +1298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7584231236799594021}
   - component: {fileID: 1716430547797198589}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: BacktRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1330,7 +1372,7 @@ GameObject:
   - component: {fileID: 288072745745344936}
   - component: {fileID: 7732598359198625408}
   - component: {fileID: 3545891121230575949}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1447,6 +1489,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: MuzzleFlash01
       objectReference: {fileID: 0}
+    - target: {fileID: 1743301284569550, guid: 0f5d80b13ed22d14b91a12eb2cfa86e6, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1992675705445476, guid: 0f5d80b13ed22d14b91a12eb2cfa86e6, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4300533007854612, guid: 0f5d80b13ed22d14b91a12eb2cfa86e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1521,6 +1571,10 @@ PrefabInstance:
     - target: {fileID: 1273915125232972, guid: 01757334d0222ed4881ce8922d96bd92, type: 3}
       propertyPath: m_Name
       value: SmokeEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 1273915125232972, guid: 01757334d0222ed4881ce8922d96bd92, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4508696319873668, guid: 01757334d0222ed4881ce8922d96bd92, type: 3}
       propertyPath: m_LocalPosition.x
